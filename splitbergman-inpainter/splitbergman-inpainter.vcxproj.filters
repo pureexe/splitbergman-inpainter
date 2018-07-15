@@ -48,6 +48,15 @@
     <ClInclude Include="Clamper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PeakSignalToNoiseRatio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RootMeanSquareError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeanSquareError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

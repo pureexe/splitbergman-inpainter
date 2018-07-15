@@ -19,8 +19,8 @@ Mat SplitBergmanSolver(Mat original_image, Mat lambda, double theta, double tole
 		u = uSolver(u, w, original_image, b, lambda, theta);
 		b = b + Gradient(u) - w; 
 		image_norm = norm(u - last_image) / norm(u);
-		printf("%d - %.4f\n", i, image_norm);
 		i++;
 	}
+	printf("processed with %d loops\n", i);
 	return u;
 }
